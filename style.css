@@ -1,0 +1,301 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Inter', sans-serif;
+}
+
+a, a:hover {
+	text-decoration: none; }
+
+/***Header Section Starts***/
+
+.header {
+	width: auto;
+	height: 100vh;
+	display: flex;
+}
+
+.header-left {
+    margin:-32px 0px;
+	background: #015761;
+	/*height: 100vh;*/
+	flex-basis: 50%;
+}
+
+.header-right {
+	background-image: url(img/day\ 4\ assignment2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*height: 100vh;*/
+	flex-basis: 50%;
+}
+
+.navbar{
+	margin: 30px 50px;
+}
+.navbar h3 {
+    padding-top: 40px;
+	color: #f7dc4f;
+	font-weight: 500;
+	font-size: 25px;
+}
+
+.navbar ul {
+	list-style: none;
+	padding: 20px 0;
+}
+
+.navbar a {
+	color: white;
+	margin-right: 30px;
+}
+
+.navbar a:hover {
+	color: #f7dc4f;
+	font-weight: 600;
+	
+}
+
+.intro {
+padding: 100px;
+}
+
+.intro-first {
+	color: #f7dc4f;
+	font-size: 47px;
+}
+
+.intro h1 {
+	color: white;
+	font-size: 105px;
+}
+
+.intro-last {
+	color: white;
+	font-weight: 200;
+	font-size: 15px;
+}
+
+.logos {
+	text-align: center;
+	margin-top: 400px;
+}
+.logos ul {
+	
+	list-style: none;
+	text-align: right;
+	
+}
+
+.logos ul li a {
+	background: #f7dc4f;
+	/*height: 30px;
+	width: 30px;*/
+	padding: 20px 0px;
+	transition: 0.3s;
+}
+
+.logos ul li a i{
+	width: 40px;
+	background: #f7dc4f;
+	padding: 10px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.logos ul li a /*i*/:hover {
+	transform: scale(2);
+	background: transparent;
+	transition: 0.3s;
+}
+
+/***Header Section Ends***/
+
+/***About Me Section Starts***/
+
+
+/***About Me Section Starts***/
+
+.about-me {
+	background: #f1f0f0;
+	text-align: center;
+	padding: 60px 0px;
+	padding-bottom: 130px;
+}
+
+.about-me h3{
+ color: #015761;
+ font-size: 40px;
+ padding: 20px 0;
+}
+
+.about-me p {
+	color: black;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 25px;
+	padding: 0px 590px;
+	padding-bottom: 40px;
+}
+
+.about-me button {
+	background: #f7dc4f;
+	color: #015761;
+	border-style: none;
+	padding: 15px 30px;
+	font-weight: 700;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.about-me button:hover {
+	background: #015761;
+	color: #f7dc4f;
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+
+
+/***About Me Section Ends***/
+
+/****Portfolio-1 Starts Here****/
+
+.portfolio-1 {
+	width: auto;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.showreel {
+	color: #015761;
+ 	font-size: 40px;
+ 	text-align: center;
+ 	padding: 60px 0;
+}
+
+.video {
+	
+	background-image: url(img/day\ 4\ assignment3.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: auto;
+	height: 100vh;
+	text-align: center;
+}
+
+
+
+/****Portfolio-1 Ends Here****/
+
+/****Portfolio-2 Starts Here****/
+
+.portfolio-2 {
+	    margin-bottom: 120px;
+}
+
+.portfolio-2 h2 {
+	
+	color: #015761;
+ 	font-size: 55px;
+ 	text-align: center;
+ 	padding: 60px 0;
+}
+
+.photo-box {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+  
+}
+
+.photo-box img{
+	padding: 15px;
+}
+
+/****Portfolio-2 Ends Here****/
+
+/****Contact Starts Here****/
+
+.contact {
+display: flex;
+}
+
+
+
+.contact-left{
+	flex-basis: 45%; 
+}
+
+.contact-right{
+	background: #015761;
+	flex-basis: 55%;
+	padding: 125px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+	padding-left: 200px;
+}
+
+.contact-right h2{
+	color: #f7dc4f;
+	font-size: 50px;
+	padding: 10px 0;
+}
+
+.texts{
+	color: white;
+	
+}
+.texts h4 {
+	font-size: 25px;
+	font-weight: 500;
+	padding: 20px 0;
+
+}
+
+.texts h5{
+	font-size: 15px;
+	font-weight: 500;
+	padding: 10px 0;
+}
+
+.texts p {
+	font-size: 13px;
+	font-weight: 300;
+	padding-bottom: 15px;
+}
+
+.manager, .Commercial-Agent, .SF-agent {
+	padding-bottom: 15px;
+}
+
+.llogo a {
+	color: white;
+	
+}
+
+.llogo a i {
+padding-right: 20px !important;
+	
+}
+/****logo Ends Here****/
+
+.copyright{
+
+	padding: 30px 0;
+}
+.copyright {
+	text-align: center;
+	color: #6f6e6e;
+	font-size: 15px;
+
+}
+.copyright a{
+	color: #6f6e6e;
+	text-decoration: underline; }
+
+.footer-2 {
+	background: #f1f0f0;
+	padding: 35px;
+}
